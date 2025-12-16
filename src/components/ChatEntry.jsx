@@ -26,7 +26,7 @@ const ChatEntry = (props ) => {
           timeStamp: PropTypes.string.isRequired,
           id: PropTypes.number.isRequired,
           liked: PropTypes.bool.isRequired,
-          likeClick: PropTypes.func.isRequired,
+          likeClick: PropTypes.func,
     };
     
     export default ChatEntry;

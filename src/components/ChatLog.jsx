@@ -36,7 +36,7 @@ const ChatLog = ( {entries, likeClick } ) => {
         liked: PropTypes.bool.isRequired,
     })
     ).isRequired,
-    likeClick: PropTypes.func.isRequired,
+    likeClick: PropTypes.func,
     };
 
 export default ChatLog;
